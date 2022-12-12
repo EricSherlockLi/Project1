@@ -1,0 +1,44 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+}
+
+a{
+    color: rgb(0, 136, 255);
+}
+
+.nav{
+    padding: 15px 0;
+    display: flex;
+    align-content: center;
+}
+
+.nav-bar{
+    width: 100%;
+    font-size: 16px;
+    max-width: 95%;
+    display: flex;
+    justify-content: center;
+    align-items: space-evenly;
+}
+
+.nav-bar__item{
+    padding: 15px;
+}
+
+.dropdown-menu{
+    width: 100%;
+    background-color: white;
+    box-shadow: 0 0.5rem black;
+    display: none;
+}
+
+.dropdown-toggle:hover .dropdown-menu{
+    display: block;
+}
+
+ul{
+    list-style-type: none;
+    background-color: white;
+}
